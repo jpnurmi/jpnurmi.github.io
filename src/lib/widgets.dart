@@ -61,7 +61,7 @@ class SocialWidget extends StatelessWidget {
           cursor: SystemMouseCursors.click,
           child: GestureDetector(
             onTap: () => onLaunch(),
-            child: Icon(icon, color: Colors.grey),
+            child: Icon(icon, color: context.iconColor),
           ),
         ),
       ),
@@ -75,7 +75,10 @@ extension on BuildContext {
   double get width => size.width;
   double get height => size.height;
 
-  TextStyle get textStyle => DefaultTextStyle.of(this).style;
+  ThemeData get theme => Theme.of(this);
+  Color get textColor => theme.hintColor;
+  Color get iconColor => theme.buttonColor;
+  TextStyle get textStyle => theme.textTheme.headline6;
 }
 
 class ProfileWidget extends StatelessWidget {
@@ -103,10 +106,7 @@ class ProfileWidget extends StatelessWidget {
           padding: const EdgeInsets.all(24.0),
           child: Text(
             name,
-            style: context.textStyle.apply(
-              fontSizeFactor: 2.0,
-              color: Colors.grey[800],
-            ),
+            style: context.textStyle.apply(color: context.textColor),
           ),
         ),
       ],
@@ -127,7 +127,7 @@ class FavoriteListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: (MediaQuery.of(context).size.height / 8).clamp(64.0, 128.0),
+      height: (context.height / 8.0).clamp(64.0, 128.0),
       child: ListView(
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,

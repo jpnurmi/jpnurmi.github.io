@@ -13,10 +13,10 @@ void main() {
           message: 'Powered by Flutter',
           location: BannerLocation.bottomEnd,
           textStyle: TextStyle(fontSize: 8, color: Colors.white),
-          color: Colors.lightBlue,
           child: HomePage(),
         ),
       ),
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
     ),
   );
