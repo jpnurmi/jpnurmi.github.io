@@ -12,8 +12,11 @@
    viewBox="0 0 462 339"
    version="1.1"
    id="svg2"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="TheQtCompany_logo_2.svg">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="qt.svg"
+   inkscape:export-filename="/home/jpnurmi/Projects/flutter/jpnurmi.github.io/icons/qt.png"
+   inkscape:export-xdpi="13.59292"
+   inkscape:export-ydpi="13.59292">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -22,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,17 +40,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1536"
-     inkscape:window-height="801"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
      id="namedview16"
      showgrid="false"
      inkscape:zoom="1.1138643"
      inkscape:cx="270.58047"
      inkscape:cy="174.65092"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:document-rotation="0" />
   <path
      fill="#41cd52"
      d=" M 63.50 0.00 L 462.00 0.00 L 462.00 274.79 C 440.60 296.26 419.13 317.66 397.61 339.00 L 0.00 339.00 L 0.00 63.39 C 21.08 42.18 42.34 21.13 63.50 0.00 Z"

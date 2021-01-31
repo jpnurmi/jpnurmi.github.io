@@ -15,11 +15,11 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/cpp.svg
-    - assets/dart.png
-    - assets/flutter.png
-    - assets/linux.svg
-    - assets/oe.svg
-    - assets/qt.svg
-    - assets/rpi.svg
-    - assets/yocto.svg
+    - icons/cpp.png
+    - icons/dart.png
+    - icons/flutter.png
+    - icons/linux.png
+    - icons/oe.png
+    - icons/qt.png
+    - icons/rpi.png
+    - icons/yocto.png

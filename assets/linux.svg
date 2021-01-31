@@ -12,9 +12,11 @@
    height="354.18802"
    id="svg27450"
    version="1.1"
-   sodipodi:docname="Tux2.svg"
-   inkscape:export-filename="./tux-large.png"
-   inkscape:version="0.92.4 (unknown)">
+   sodipodi:docname="linux.svg"
+   inkscape:export-filename="/home/jpnurmi/Projects/flutter/jpnurmi.github.io/icons/linux.png"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   inkscape:export-xdpi="20.198032"
+   inkscape:export-ydpi="20.198032">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,17 +26,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="732"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
      id="namedview282"
      showgrid="false"
      inkscape:zoom="0.66631277"
-     inkscape:cx="149.57451"
+     inkscape:cx="152.5761"
      inkscape:cy="177.09401"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg27450" />
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27450"
+     inkscape:document-rotation="0" />
   <title
      id="title20046">Tux</title>
   <defs
