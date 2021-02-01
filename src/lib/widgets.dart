@@ -100,7 +100,7 @@ class ProfileWidget extends StatelessWidget {
         SizedBox(
           width: size,
           height: size,
-          child: Image.asset(image),
+          child: CircleAvatar(backgroundImage: AssetImage(image)),
         ),
         Padding(
           padding: const EdgeInsets.all(24.0),
