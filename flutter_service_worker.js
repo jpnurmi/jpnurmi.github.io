@@ -3,13 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "61e356d90742dbce0dc18d77186b7263",
-"/": "61e356d90742dbce0dc18d77186b7263",
+  "index.html": "c978dc37f849f41f56e730e0f365d321",
+"/": "c978dc37f849f41f56e730e0f365d321",
 "manifest.json": "a1089adfb0f2d1da72743a98e213162d",
 "version.json": "b8e89a1762248c2da13477ed071a2e18",
-"icons/Icon-512.png": "547cd3377e8928b4ed48dea0d4443709",
-"icons/Icon-192.png": "73a3d45c21d5baff6a64bfc9c3511465",
-"favicon.png": "5a4b01151059816416712b45ed1411bc",
+"icons/Icon-512.png": "f65f27ccf7091dfd952424db00fa671c",
+"icons/Icon-192.png": "aed346649b8579a8bf4a20c01b0c4097",
+"favicon.png": "af0734ebcdf61f3ed30d4bc08c1dbf7e",
 "assets/NOTICES": "ac1282089949bcf67ffa5314009c8cb5",
 "assets/FontManifest.json": "f67cebcedcf99eaf92fab8686f965661",
 "assets/packages/flutter_icons/fonts/FontAwesome5_Solid.ttf": "b70cea0339374107969eb53e5b1f603f",
