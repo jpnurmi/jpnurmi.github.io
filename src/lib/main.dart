@@ -8,6 +8,7 @@ import 'widgets.dart';
 void main() {
   runApp(
     MaterialApp(
+      title: 'J-P Nurmi',
       home: Material(
         child: Banner(
           message: 'Powered by Flutter',
