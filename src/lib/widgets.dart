@@ -2,6 +2,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:simple_animations/simple_animations.dart';
+import 'package:supercharged/supercharged.dart';
 
 import 'types.dart';
 
@@ -132,12 +134,15 @@ class FavoriteListView extends StatelessWidget {
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
         children: [
-          for (final item in items)
-            FavoriteWidget(
-              name: item.name,
-              icon: item.icon,
-              url: item.url,
-              onLaunch: () => onLaunch(item.url),
+          for (var i = 0; i < items.length; ++i)
+            FadeAnimation(
+              delay: Duration(milliseconds: 1500 + i * 100),
+              child: FavoriteWidget(
+                name: items[i].name,
+                icon: items[i].icon,
+                url: items[i].url,
+                onLaunch: () => onLaunch(items[i].url),
+              ),
             ),
         ],
       ),
@@ -160,14 +165,55 @@ class SocialRow extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
-        for (final item in items)
-          SocialWidget(
-            name: item.name,
-            icon: item.icon,
-            url: item.url,
-            onLaunch: () => onLaunch(item.url),
+        for (var i = 0; i < items.length; ++i)
+          FadeAnimation(
+            delay: Duration(milliseconds: 500 + i * 100),
+            child: SocialWidget(
+              name: items[i].name,
+              icon: items[i].icon,
+              url: items[i].url,
+              onLaunch: () => onLaunch(items[i].url),
+            ),
           ),
       ],
+    );
+  }
+}
+
+enum FadeProperties { opacity, translate }
+
+class FadeAnimation extends StatelessWidget {
+  final Duration delay;
+  final Duration duration;
+  final double distance;
+  final Widget child;
+
+  FadeAnimation({
+    this.delay = Duration.zero,
+    this.duration = const Duration(milliseconds: 175),
+    this.distance = 25.0,
+    @required this.child,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final tween = MultiTween<FadeProperties>()
+      ..add(FadeProperties.opacity, 0.0.tweenTo(1.0), duration)
+      ..add(FadeProperties.translate, distance.tweenTo(0.0), duration,
+          Curves.easeOut);
+
+    return PlayAnimation<MultiTweenValues<FadeProperties>>(
+      delay: delay,
+      duration: tween.duration,
+      tween: tween,
+      child: child,
+      builder: (context, child, value) => Opacity(
+        opacity: value.get(FadeProperties.opacity),
+        child: Transform.translate(
+          offset: Offset(0, value.get(FadeProperties.translate)),
+          child: child,
+        ),
+      ),
     );
   }
 }
