@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import 'items.dart';
 import 'widgets.dart';
@@ -24,7 +23,7 @@ void main() {
 }
 
 class HomePage extends StatelessWidget {
-  HomePage({Key key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +32,7 @@ class HomePage extends StatelessWidget {
       children: [
         SocialRow(
           items: socialItems,
-          onLaunch: (url) => launch(url),
+          onLaunch: (url) => launchUrlString(url),
         ),
         ProfileWidget(
           name: 'J-P Nurmi',
@@ -41,7 +40,7 @@ class HomePage extends StatelessWidget {
         ),
         FavoriteListView(
           items: favoriteItems,
-          onLaunch: (url) => launch(url),
+          onLaunch: (url) => launchUrlString(url),
         ),
       ],
     );

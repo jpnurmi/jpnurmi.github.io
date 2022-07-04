@@ -1,7 +1,6 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:simple_animations/simple_animations.dart';
 import 'package:supercharged/supercharged.dart';
 
@@ -9,12 +8,12 @@ import 'types.dart';
 
 class FavoriteWidget extends StatelessWidget {
   const FavoriteWidget({
-    Key key,
-    @required this.name,
-    @required this.icon,
-    @required this.url,
-    @required this.onLaunch,
-  }) : super(key: key);
+    super.key,
+    required this.name,
+    required this.icon,
+    required this.url,
+    required this.onLaunch,
+  });
 
   final String name;
   final String icon;
@@ -41,12 +40,12 @@ class FavoriteWidget extends StatelessWidget {
 
 class SocialWidget extends StatelessWidget {
   const SocialWidget({
-    Key key,
-    @required this.name,
-    @required this.icon,
-    @required this.url,
-    @required this.onLaunch,
-  }) : super(key: key);
+    super.key,
+    required this.name,
+    required this.icon,
+    required this.url,
+    required this.onLaunch,
+  });
 
   final String name;
   final IconData icon;
@@ -79,16 +78,16 @@ extension on BuildContext {
 
   ThemeData get theme => Theme.of(this);
   Color get textColor => theme.hintColor;
-  Color get iconColor => theme.buttonColor;
-  TextStyle get textStyle => theme.textTheme.headline6;
+  Color get iconColor => theme.colorScheme.primary;
+  TextStyle get textStyle => theme.textTheme.headline6!;
 }
 
 class ProfileWidget extends StatelessWidget {
   const ProfileWidget({
-    Key key,
-    @required this.name,
-    @required this.image,
-  }) : super(key: key);
+    super.key,
+    required this.name,
+    required this.image,
+  });
 
   final String name;
   final String image;
@@ -118,10 +117,10 @@ class ProfileWidget extends StatelessWidget {
 
 class FavoriteListView extends StatelessWidget {
   const FavoriteListView({
-    Key key,
-    @required this.items,
-    @required this.onLaunch,
-  }) : super(key: key);
+    super.key,
+    required this.items,
+    required this.onLaunch,
+  });
 
   final List<ItemData> items;
   final LaunchCallback onLaunch;
@@ -152,10 +151,10 @@ class FavoriteListView extends StatelessWidget {
 
 class SocialRow extends StatelessWidget {
   const SocialRow({
-    Key key,
-    @required this.items,
-    @required this.onLaunch,
-  }) : super(key: key);
+    super.key,
+    required this.items,
+    required this.onLaunch,
+  });
 
   final List<ItemData> items;
   final LaunchCallback onLaunch;
@@ -188,11 +187,11 @@ class FadeAnimation extends StatelessWidget {
   final double distance;
   final Widget child;
 
-  FadeAnimation({
+  const FadeAnimation({
     this.delay = Duration.zero,
     this.duration = const Duration(milliseconds: 175),
     this.distance = 25.0,
-    @required this.child,
+    required this.child,
   });
 
   @override

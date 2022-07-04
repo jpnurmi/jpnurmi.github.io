@@ -1,36 +1,31 @@
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'types.dart';
 
 const socialItems = <ItemData>[
   const ItemData(
     name: 'GitHub',
-    icon: FlutterIcons.github_face_mco,
+    icon: MdiIcons.github,
     url: 'https://www.github.com/jpnurmi',
   ),
   const ItemData(
-    name: 'LinkedIn',
-    icon: FlutterIcons.linkedin_mco,
-    url: 'https://www.linkedin.com/in/jpnurmi',
-  ),
-  const ItemData(
     name: 'Twitter',
-    icon: FlutterIcons.twitter_mco,
+    icon: MdiIcons.twitter,
     url: 'https://www.twitter.com/jpnurmi',
   ),
   const ItemData(
+    name: 'LinkedIn',
+    icon: MdiIcons.linkedin,
+    url: 'https://www.linkedin.com/in/jpnurmi',
+  ),
+  const ItemData(
     name: 'Email',
-    icon: FlutterIcons.email_mco,
+    icon: MdiIcons.email,
     url: 'mailto:jpnurmi@gmail.com',
   ),
 ];
 
 const favoriteItems = <ItemData>[
-  const ItemData(
-    name: 'C++',
-    icon: 'cpp',
-    url: 'https://isocpp.org/',
-  ),
   const ItemData(
     name: 'Dart',
     icon: 'dart',
@@ -47,23 +42,8 @@ const favoriteItems = <ItemData>[
     url: 'https://www.linuxfoundation.org/',
   ),
   const ItemData(
-    name: 'Open Embedded',
-    icon: 'oe',
-    url: 'https://www.openembedded.org/',
-  ),
-  const ItemData(
-    name: 'Qt',
-    icon: 'qt',
-    url: 'https://www.qt.io/',
-  ),
-  const ItemData(
-    name: 'Raspberry Pi',
-    icon: 'rpi',
-    url: 'https://www.raspberrypi.org/',
-  ),
-  const ItemData(
-    name: 'Yocto',
-    icon: 'yocto',
-    url: 'https://www.yoctoproject.org/',
+    name: 'Ubuntu',
+    icon: 'ubuntu',
+    url: 'https://www.ubuntu.com/',
   ),
 ];
