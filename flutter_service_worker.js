@@ -3,50 +3,35 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "3251cab0c991265443543cd3866f459f",
-"/": "3251cab0c991265443543cd3866f459f",
+  "version.json": "f0fd26f960fc688fdc6f6d42d4f72009",
 "manifest.json": "1336556412c309122f7a9c09e3df790b",
-"version.json": "b8e89a1762248c2da13477ed071a2e18",
+"index.html": "80bbeb5af7e09e4a330a74f469ac417a",
+"/": "80bbeb5af7e09e4a330a74f469ac417a",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf": "b62641afc9ab487008e996a5c5865e56",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "710d3a9f94b39ac1b02e83709a3c9863",
+"assets/images/profile.png": "e2cb8c01ce2971ac11267a454dfe6367",
+"assets/icons/flutter.png": "9a6fca3d1bdb87f715ccc43a0210e8a2",
+"assets/icons/dart.png": "dfb20899acc1726856fe258f88099b7e",
+"assets/icons/ubuntu.png": "4c41f296bd6a5b7917116ded5d4608ef",
+"assets/icons/linux.png": "c204dbd1e9a087d074812ca4a2de84b3",
+"assets/FontManifest.json": "cf3c681641169319e61b61bd0277378f",
+"assets/AssetManifest.json": "a30f04f0c6442a360ad30c696375a1e9",
+"main.dart.js": "97bef6b5b5c57430f93b47133880a5b5",
 "icons/Icon-512.png": "f65f27ccf7091dfd952424db00fa671c",
 "icons/Icon-192.png": "aed346649b8579a8bf4a20c01b0c4097",
-"favicon.png": "af0734ebcdf61f3ed30d4bc08c1dbf7e",
-"assets/NOTICES": "1306e1a86f33f8baca48b2265b7c139d",
-"assets/FontManifest.json": "f67cebcedcf99eaf92fab8686f965661",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Solid.ttf": "b70cea0339374107969eb53e5b1f603f",
-"assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
-"assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
-"assets/packages/flutter_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
-"assets/packages/flutter_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
-"assets/packages/flutter_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
-"assets/packages/flutter_icons/fonts/Feather.ttf": "6beba7e6834963f7f171d3bdd075c915",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Regular.ttf": "f6c6f6c8cb7784254ad00056f6fbd74e",
-"assets/packages/flutter_icons/fonts/MaterialCommunityIcons.ttf": "3c851d60ad5ef3f2fe43ebd263490d78",
-"assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
-"assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
-"assets/packages/flutter_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Brands.ttf": "c39278f7abfc798a241551194f55e29f",
-"assets/packages/flutter_icons/fonts/Ionicons.ttf": "b2e0fc821c6886fb3940f85a3320003e",
-"assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
-"assets/packages/flutter_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
-"assets/icons/qt.png": "425947d6218ba9f59f368d0b648f278c",
-"assets/icons/linux.png": "c204dbd1e9a087d074812ca4a2de84b3",
-"assets/icons/yocto.png": "ff0b945816a612f8b1e7da2779918089",
-"assets/icons/flutter.png": "9a6fca3d1bdb87f715ccc43a0210e8a2",
-"assets/icons/oe.png": "6de201eeab64d062de05bb674ec624e7",
-"assets/icons/cpp.png": "ba535554d9d5231952414c512df5552a",
-"assets/icons/rpi.png": "d536091beab046bad992792e94128243",
-"assets/icons/dart.png": "dfb20899acc1726856fe258f88099b7e",
-"assets/images/profile.png": "a5a706620e4b7f43feded412b40c68ac",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/AssetManifest.json": "6c8fadeaf4cac3142f7d5703cf6c3bdc",
-"main.dart.js": "cb77672649cc25d5c197e2d9b974a253"
+"favicon.png": "af0734ebcdf61f3ed30d4bc08c1dbf7e"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
@@ -57,7 +42,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
