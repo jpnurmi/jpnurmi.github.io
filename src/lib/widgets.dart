@@ -94,13 +94,11 @@ class ProfileWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double size = math.min(context.width / 5 * 4, context.height / 2);
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        SizedBox(
-          width: size,
-          height: size,
+        SizedBox.square(
+          dimension: 160,
           child: CircleAvatar(backgroundImage: AssetImage(image)),
         ),
         Padding(
