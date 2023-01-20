@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   material_design_icons_flutter: ^5.0.6595
   simple_animations: ^4.2.0
   supercharged: ^2.1.1
