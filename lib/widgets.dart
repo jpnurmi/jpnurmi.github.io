@@ -1,5 +1,3 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 import 'package:simple_animations/simple_animations.dart';
 import 'package:supercharged/supercharged.dart';
@@ -72,9 +70,7 @@ class SocialWidget extends StatelessWidget {
 
 extension on BuildContext {
   MediaQueryData get mediaQuery => MediaQuery.of(this);
-  Size get size => mediaQuery.size;
-  double get width => size.width;
-  double get height => size.height;
+  double get height => mediaQuery.size.height;
 
   ThemeData get theme => Theme.of(this);
   Color get textColor => theme.hintColor;
