@@ -37,13 +37,13 @@ const favoriteItems = <ItemData>[
     url: 'https://flutter.dev/',
   ),
   const ItemData(
-    name: 'Linux',
-    icon: 'linux',
-    url: 'https://www.linuxfoundation.org/',
-  ),
-  const ItemData(
     name: 'Ubuntu',
     icon: 'ubuntu',
     url: 'https://www.ubuntu.com/',
+  ),
+  const ItemData(
+    name: 'Canonical',
+    icon: 'canonical',
+    url: 'https://www.canonical.com/',
   ),
 ];
