@@ -4,6 +4,9 @@ import 'package:supercharged/supercharged.dart';
 
 import 'types.dart';
 
+const kDelay = Duration(milliseconds: 750);
+const kInterval = Duration(milliseconds: 100);
+
 class FavoriteWidget extends StatelessWidget {
   const FavoriteWidget({
     super.key,
@@ -93,15 +96,24 @@ class ProfileWidget extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        SizedBox.square(
-          dimension: 160,
-          child: CircleAvatar(backgroundImage: AssetImage(image)),
+        FadeAnimation(
+          delay: kDelay,
+          child: SizedBox.square(
+            dimension: 160,
+            child: CircleAvatar(
+              backgroundImage: AssetImage(image),
+              backgroundColor: Color(0xff181a1b),
+            ),
+          ),
         ),
-        Padding(
-          padding: const EdgeInsets.all(24.0),
-          child: Text(
-            name,
-            style: context.textStyle.apply(color: context.textColor),
+        FadeAnimation(
+          delay: kDelay + kInterval,
+          child: Padding(
+            padding: const EdgeInsets.all(24.0),
+            child: Text(
+              name,
+              style: context.textStyle.apply(color: context.textColor),
+            ),
           ),
         ),
       ],
@@ -129,7 +141,7 @@ class FavoriteListView extends StatelessWidget {
         children: [
           for (var i = 0; i < items.length; ++i)
             FadeAnimation(
-              delay: Duration(milliseconds: 1500 + i * 100),
+              delay: kDelay * 3 + kInterval * i,
               child: FavoriteWidget(
                 name: items[i].name,
                 icon: items[i].icon,
@@ -160,7 +172,7 @@ class SocialRow extends StatelessWidget {
       children: [
         for (var i = 0; i < items.length; ++i)
           FadeAnimation(
-            delay: Duration(milliseconds: 500 + i * 100),
+            delay: kDelay * 2 + kInterval * i,
             child: SocialWidget(
               name: items[i].name,
               icon: items[i].icon,
