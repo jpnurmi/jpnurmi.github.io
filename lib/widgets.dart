@@ -185,8 +185,6 @@ class SocialRow extends StatelessWidget {
   }
 }
 
-enum FadeProperties { opacity, translate }
-
 class FadeAnimation extends StatelessWidget {
   final Duration delay;
   final Duration duration;
@@ -202,20 +200,22 @@ class FadeAnimation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final opacity = MovieTweenProperty<double>();
+    final offset = MovieTweenProperty<double>();
     final tween = MovieTween()
-      ..tween(FadeProperties.opacity, 0.0.tweenTo(1.0), duration: duration)
-      ..tween(FadeProperties.translate, distance.tweenTo(0.0),
+      ..tween(opacity, 0.0.tweenTo(1.0), duration: duration)
+      ..tween(offset, distance.tweenTo(0.0),
           duration: duration, curve: Curves.easeOut);
 
-    return PlayAnimationBuilder(
+    return PlayAnimationBuilder<Movie>(
       delay: delay,
       duration: tween.duration,
       tween: tween,
       child: child,
-      builder: (context, value, child) => Opacity(
-        opacity: value.get(FadeProperties.opacity),
+      builder: (context, value, _) => Opacity(
+        opacity: value.get(opacity),
         child: Transform.translate(
-          offset: Offset(0, value.get(FadeProperties.translate)),
+          offset: Offset(0, value.get(offset)),
           child: child,
         ),
       ),
