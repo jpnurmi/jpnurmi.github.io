@@ -202,17 +202,17 @@ class FadeAnimation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final tween = MultiTween<FadeProperties>()
-      ..add(FadeProperties.opacity, 0.0.tweenTo(1.0), duration)
-      ..add(FadeProperties.translate, distance.tweenTo(0.0), duration,
-          Curves.easeOut);
+    final tween = MovieTween()
+      ..tween(FadeProperties.opacity, 0.0.tweenTo(1.0), duration: duration)
+      ..tween(FadeProperties.translate, distance.tweenTo(0.0),
+          duration: duration, curve: Curves.easeOut);
 
-    return PlayAnimation<MultiTweenValues<FadeProperties>>(
+    return PlayAnimationBuilder(
       delay: delay,
       duration: tween.duration,
       tween: tween,
       child: child,
-      builder: (context, child, value) => Opacity(
+      builder: (context, value, child) => Opacity(
         opacity: value.get(FadeProperties.opacity),
         child: Transform.translate(
           offset: Offset(0, value.get(FadeProperties.translate)),
