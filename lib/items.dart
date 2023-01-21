@@ -6,12 +6,12 @@ const socialItems = <ItemData>[
   const ItemData(
     name: 'GitHub',
     icon: MdiIcons.github,
-    url: 'https://www.github.com/jpnurmi',
+    url: 'https://github.com/jpnurmi',
   ),
   const ItemData(
     name: 'Twitter',
     icon: MdiIcons.twitter,
-    url: 'https://www.twitter.com/jpnurmi',
+    url: 'https://twitter.com/jpnurmi',
   ),
   const ItemData(
     name: 'LinkedIn',
@@ -39,11 +39,11 @@ const favoriteItems = <ItemData>[
   const ItemData(
     name: 'Ubuntu',
     icon: 'ubuntu',
-    url: 'https://www.ubuntu.com/',
+    url: 'https://ubuntu.com/',
   ),
   const ItemData(
     name: 'Canonical',
     icon: 'canonical',
-    url: 'https://www.canonical.com/',
+    url: 'https://canonical.com/',
   ),
 ];
