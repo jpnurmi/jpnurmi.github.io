@@ -78,7 +78,7 @@ extension on BuildContext {
   ThemeData get theme => Theme.of(this);
   Color get textColor => theme.hintColor;
   Color get iconColor => theme.colorScheme.primary;
-  TextStyle get textStyle => theme.textTheme.headline6!;
+  TextStyle get textStyle => theme.textTheme.titleLarge!;
 }
 
 class ProfileWidget extends StatelessWidget {
