@@ -39,6 +39,7 @@ class HomePage extends StatelessWidget {
         ProfileWidget(
           name: 'J-P Nurmi',
           image: 'images/profile.png',
+          onTap: () => launchUrlString('https://jpnurmi.dev/p'),
         ),
         FavoriteListView(
           items: favoriteItems,

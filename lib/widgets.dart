@@ -86,37 +86,48 @@ class ProfileWidget extends StatelessWidget {
     super.key,
     required this.name,
     required this.image,
+    required this.onTap,
   });
 
   final String name;
   final String image;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        FadeAnimation(
-          delay: kDelay,
-          child: SizedBox.square(
-            dimension: 160,
-            child: CircleAvatar(
-              backgroundImage: AssetImage(image),
-              backgroundColor: Color(0xff181a1b),
-            ),
+    return Tooltip(
+      message: 'Profile',
+      child: MouseRegion(
+        cursor: SystemMouseCursors.click,
+        child: GestureDetector(
+          onTap: onTap,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              FadeAnimation(
+                delay: kDelay,
+                child: SizedBox.square(
+                  dimension: 160,
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage(image),
+                    backgroundColor: Color(0xff181a1b),
+                  ),
+                ),
+              ),
+              FadeAnimation(
+                delay: kDelay + kInterval,
+                child: Padding(
+                  padding: const EdgeInsets.all(24.0),
+                  child: Text(
+                    name,
+                    style: context.textStyle.apply(color: context.textColor),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
-        FadeAnimation(
-          delay: kDelay + kInterval,
-          child: Padding(
-            padding: const EdgeInsets.all(24.0),
-            child: Text(
-              name,
-              style: context.textStyle.apply(color: context.textColor),
-            ),
-          ),
-        ),
-      ],
+      ),
     );
   }
 }
