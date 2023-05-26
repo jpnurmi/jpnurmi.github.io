@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  color: #e2e2e2;
+  background-color: #1e1e1e;
+}
+a {
+  color: #2196f3;
+}
+.markdown-body img {
+    background-color: transparent;
+}
