@@ -2,13 +2,33 @@
 ---
 
 @import "{{ site.theme }}";
-body {
-  color: #e2e2e2;
-  background-color: #1e1e1e;
-}
-a {
-  color: #2196f3;
-}
+
+/* common */
+a { color: #2196f3; }
 .markdown-body img {
-    background-color: transparent;
+  background: transparent;
+}
+
+/* light */
+@media (prefers-color-scheme: light) {
+  .dark-only { display: none;}
+  body {
+    background: #f5f5f5;
+    color: #2e2e2e;
+  }
+  .markdown-body h1, .markdown-body h2 {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/* dark */
+@media (prefers-color-scheme: dark) {
+  .light-only { display: none; }
+  body {
+    background: #2e2e2e;
+    color: #efefef;
+  }
+  .markdown-body h1, .markdown-body h2 {
+    border-bottom: 1px solid #444;
+  }
 }
