@@ -9,7 +9,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
 ## Experience
 
-- **Senior Engineer at Canonical** (remote, since 2021)
+- **Senior Engineer at Canonical** (remote, 2021-)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
@@ -19,9 +19,6 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![Python](https://img.shields.io/badge/-Python-555?style=flat&logo=python)](https://www.python.org/)
 
   Flutter 💙 Ubuntu Desktop.
-
-  [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer), [Firmware Updater](https://github.com/canonical/firmware-updater), [Workshops](https://github.com/canonical/workshops)<br/>
-  [Ubuntu Flutter Community](https://github.com/ubuntu-flutter-community), [Yaru Widgets](https://github.com/ubuntu/yaru_widgets.dart), [Flutter for Linux](https://github.com/flutter/engine)
 
 - **Senior Software Engineer at CELLINK** (Gothenburg, Sweden / remote, 2018-2021)
 
@@ -70,6 +67,45 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![Windows](https://img.shields.io/badge/-Windows-555?style=flat&logo=windows)](https://www.microsoft.com/windows)
 
   Nokia Ovi Suite. KONE elevator and escalator monitoring software.
+
+## Projects
+
+- [**Ubuntu Desktop Installer**](https://github.com/canonical/ubuntu-desktop-installer) (2021-)
+
+  [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu)](https://ubuntu.com/)
+  [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
+  [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
+  [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
+  [![Python](https://img.shields.io/badge/-Python-555?style=flat&logo=python)](https://www.python.org/)
+
+  Contributor since early 2021. Joined the Desktop team at Canonical in mid 2021.
+
+- [**Yaru**](https://github.com/ubuntu/yaru_widgets.dart) (2022-)
+
+  [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
+  [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
+  [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
+  [![C](https://img.shields.io/badge/-C-555?style=flat&logo=cplusplus)](https://www.iso.org/standard/74528.html)
+
+  Shaped the looks of all Yaru and Flutter apps on Ubuntu by implementing client-side window decorations, rounded bottom window corners etc.
+
+- [**Flutter**](https://flutter.dev/) (2020/2022-)
+
+  [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
+  [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
+  [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
+  [![C](https://img.shields.io/badge/-C-555?style=flat&logo=cplusplus)](https://www.iso.org/standard/74528.html)
+
+  Contributions to the [framework](https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3Ajpnurmi+) and the [engine](https://github.com/flutter/engine/pulls?q=is%3Apr+author%3Ajpnurmi+). Flutter team member since 2022.
+
+- [**Flutter Community Plus Plugins**](https://plus.fluttercommunity.dev/) (2020-)
+
+  [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
+  [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
+  [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
+  [![C](https://img.shields.io/badge/-C-555?style=flat&logo=cplusplus)](https://www.iso.org/standard/74528.html)
+
+  Author and maintainer of the Linux platform plugins.
 
 ## Education
 
