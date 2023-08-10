@@ -70,7 +70,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
 ## Projects
 
-- [**Ubuntu Desktop Installer**](https://github.com/canonical/ubuntu-desktop-installer) (2021-)
+- [**Ubuntu Desktop Installer**](https://github.com/canonical/ubuntu-desktop-installer), [**Ubuntu Welcome**](https://github.com/canonical/ubuntu-welcome), [**Ubuntu Desktop Provision**](https://github.com/canonical/ubuntu-desktop-provision) (2021-)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
@@ -96,7 +96,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![C](https://img.shields.io/badge/-C-555?style=flat&logo=cplusplus)](https://www.iso.org/standard/74528.html)
 
-  Contributions to the [framework](https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3Ajpnurmi+) and the [engine](https://github.com/flutter/engine/pulls?q=is%3Apr+author%3Ajpnurmi+). Flutter team member since 2022.
+  Contributions to the [framework](https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3Ajpnurmi+), [packages](https://github.com/flutter/packages/pulls?q=is%3Apr+author%3Ajpnurmi+), and the [engine](https://github.com/flutter/engine/pulls?q=is%3Apr+author%3Ajpnurmi+). Flutter team member since 2022.
 
 - [**Flutter Community Plus Plugins**](https://plus.fluttercommunity.dev/) (2020-)
 
