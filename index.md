@@ -5,11 +5,11 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-555?style=flat&logo=linkedin)](https://linkedin.com/in/jpnurmi)
 [![Email](https://img.shields.io/badge/-Email-555?style=flat&logo=gmail)](mailto:jpnurmi@gmail.com)
 
-A passionate and dedicated software engineer with ~20 years of experience in developing applications, frameworks, and devices.
+A passionate and dedicated software engineer with ~20 years of experience developing applications, frameworks, and devices.
 
 ## Experience
 
-- **Senior Engineer at Canonical** (remote, 2021-)
+- **Senior Engineer at Canonical** (remote, 2021-2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
@@ -50,7 +50,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![Linux](https://img.shields.io/badge/-Linux-555?style=flat&logo=linux)](https://www.linuxfoundation.org/)
   [![Windows](https://img.shields.io/badge/-Windows-555?style=flat&logo=windows)](https://www.microsoft.com/windows)
 
-  Tech lead of the widgets team of a Qt Quick based UI framework targeting Symbian and MeeGo.
+  Tech lead of the widgets team of a Qt Quick-based UI framework targeting Symbian and MeeGo.
 
 - **Software Engineer at Teleca** (Tampere, Finland, 2008)
 
@@ -70,7 +70,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
 ## Projects
 
-- [**Ubuntu Desktop Installer**](https://github.com/canonical/ubuntu-desktop-installer), [**Ubuntu Welcome**](https://github.com/canonical/ubuntu-welcome), [**Ubuntu Desktop Provision**](https://github.com/canonical/ubuntu-desktop-provision) (2021-)
+- [**Ubuntu Desktop Installer**](https://github.com/canonical/ubuntu-desktop-installer), [**Ubuntu Welcome**](https://github.com/canonical/ubuntu-welcome), [**Ubuntu Desktop Provision**](https://github.com/canonical/ubuntu-desktop-provision) (2021-2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
@@ -78,9 +78,9 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![Python](https://img.shields.io/badge/-Python-555?style=flat&logo=python)](https://www.python.org/)
 
-  Contributor since early 2021. Joined the Desktop team at Canonical in mid 2021.
+  Contributor since early 2021. Joined the Desktop team at Canonical in mid-2021.
 
-- [**Yaru**](https://github.com/ubuntu/yaru_widgets.dart) (2022-)
+- [**Yaru**](https://github.com/ubuntu/yaru_widgets.dart) (2022-2023)
 
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
   [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
@@ -89,7 +89,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
   Shaped the looks of all Yaru and Flutter apps on Ubuntu by implementing client-side window decorations, rounded bottom window corners etc.
 
-- [**Flutter**](https://flutter.dev/) (2020/2022-)
+- [**Flutter**](https://flutter.dev/) (2020/2022-2023)
 
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
   [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
@@ -98,7 +98,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
   Contributions to the [framework](https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3Ajpnurmi+), [packages](https://github.com/flutter/packages/pulls?q=is%3Apr+author%3Ajpnurmi+), and the [engine](https://github.com/flutter/engine/pulls?q=is%3Apr+author%3Ajpnurmi+). Flutter team member since 2022.
 
-- [**Flutter Community Plus Plugins**](https://plus.fluttercommunity.dev/) (2020-)
+- [**Flutter Community Plus Plugins**](https://plus.fluttercommunity.dev/) (2020-2023)
 
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
   [![Dart](https://img.shields.io/badge/-Dart-555?style=flat&logo=dart)](https://dart.dev/)
@@ -109,7 +109,7 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
 
 ## Education
 
-- **Tampere University of Technology** (Tampere, Finland, 2001-2009)
+- **Tampere University of Technology** (Tampere, Finland, 2001-2005/2009)
 
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![C](https://img.shields.io/badge/-C-555?style=flat&logo=cplusplus)](https://www.iso.org/standard/74528.html)
@@ -117,4 +117,4 @@ A passionate and dedicated software engineer with ~20 years of experience in dev
   [![Java](https://img.shields.io/badge/-Java-555?style=flat&logo=oracle)](https://www.java.com/)
   [![Python](https://img.shields.io/badge/-Python-555?style=flat&logo=python)](https://www.python.org/)
 
-  Master of Science, software engineering.
+  Master of Science, Software Engineering.
