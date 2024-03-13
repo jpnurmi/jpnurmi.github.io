@@ -13,7 +13,8 @@ A passionate and dedicated software engineer with ~20 years of experience develo
 
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
-  [![HarmonyOS](https://img.shields.io/badge/-HarmonyOS-555?style=flat&logo=harmonyos)](https://www.harmonyos.com/en/)
+  [![JavaScript](https://img.shields.io/badge/-JavaScript-555?style=flat&logo=javascript&logoColor=fff)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+  [![OpenHarmony](https://img.shields.io/badge/-OpenHarmony-555?style=flat&logo=harmonyos)](https://www.harmonyos.com/en/)
 
   [ArkUI](https://developer.harmonyos.com/en/develop/arkUI) for OpenHarmony.
 
