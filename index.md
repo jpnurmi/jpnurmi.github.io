@@ -5,20 +5,20 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-555?style=flat&logo=linkedin)](https://linkedin.com/in/jpnurmi)
 [![Email](https://img.shields.io/badge/-Email-555?style=flat&logo=gmail&logoColor=fff)](mailto:jpnurmi@gmail.com)
 
-A passionate and dedicated software engineer with ~20 years of experience developing applications, frameworks, and devices.
+A passionate and dedicated software engineer with 20 years of experience developing applications, frameworks, and devices.
 
 ## Experience
 
-- **Senior Engineer** at **Huawei Suomi Finland** (contract, remote, 2023-)
+- **Contractor** at **Huawei Finland** (remote, 2023-2025)
 
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
   [![JavaScript](https://img.shields.io/badge/-JavaScript-555?style=flat&logo=javascript&logoColor=fff)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
   [![OpenHarmony](https://img.shields.io/badge/-OpenHarmony-555?style=flat&logo=harmonyos)](https://www.harmonyos.com/en/)
 
-  [ArkUI](https://developer.harmonyos.com/en/develop/arkUI) for OpenHarmony.
+  Lead developer of experimental multi-threaded VList and VGrid components for [ArkUI](https://gitee.com/openharmony/arkui_ace_engine).
 
-- **Senior Engineer** at **Canonical** (contract, remote, 2021-2023)
+- **Contractor** at **Canonical** (remote, 2021-2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu&logoColor=fff)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
