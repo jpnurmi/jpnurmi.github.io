@@ -9,7 +9,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
 ## Experience
 
-- **Contractor** at **Huawei Finland** (remote, 2023-2025)
+- **Contractor** at **Huawei Finland** (remote, Nov 2023 - Feb 2025)
 
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
@@ -18,7 +18,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Lead developer of experimental multi-threaded VList and VGrid components for [ArkUI](https://gitee.com/openharmony/arkui_ace_engine).
 
-- **Contractor** at **Canonical** (remote, 2021-2023)
+- **Contractor** at **Canonical** (remote, Jul 2021 - Sep 2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu&logoColor=fff)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
@@ -29,7 +29,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Lead developer of the [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer).
 
-- **Senior Software Engineer** at **CELLINK** (Gothenburg, Sweden / remote, 2018-2021)
+- **Senior Software Engineer** at **CELLINK** (Gothenburg, Sweden / remote, Jul 2018 - May 2021)
 
   [![Qt](https://img.shields.io/badge/-Qt-555?style=flat&logo=qt&logoColor=fff)](https://qt.io/)
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
@@ -39,7 +39,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Lead GUI developer of the [BIO X](https://www.cellink.com/product/bio-x/) 3D bioprinter.
 
-- **Senior Software Engineer** at **Nokia/Digia/The Qt Company** (Oslo, Norway, 2011-2018)
+- **Senior Software Engineer** at **Nokia/Digia/The Qt Company** (Oslo, Norway, May 2011 - Jun 2018)
 
   [![Qt](https://img.shields.io/badge/-Qt-555?style=flat&logo=qt&logoColor=fff)](https://qt.io/)
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
@@ -51,7 +51,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Author and tech lead of [Qt Quick Controls 2](https://doc.qt.io/qt-5/qtquickcontrols-index.html).
 
-- **Senior Software Engineer** at **Nokia** (Tampere, Finland, 2008-2011)
+- **Senior Software Engineer** at **Nokia** (Tampere, Finland, Dec 2008 - Apr 2011)
 
   [![Qt](https://img.shields.io/badge/-Qt-555?style=flat&logo=qt&logoColor=fff)](https://qt.io/)
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
@@ -61,7 +61,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Tech lead of the widgets team of a Qt Quick-based UI framework targeting Symbian and MeeGo.
 
-- **Software Engineer** at **Teleca** (Tampere, Finland, 2008)
+- **Software Engineer** at **Teleca** (Tampere, Finland, Mar 2008 - Nov 2008)
 
   [![Qt](https://img.shields.io/badge/-Qt-555?style=flat&logo=qt&logoColor=fff)](https://qt.io/)
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
@@ -69,7 +69,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Qt specialist consultant at Nokia.
 
-- **Software Engineer** at **Plenware** (Tampere, Finland, 2005-2008)
+- **Software Engineer** at **Plenware** (Tampere, Finland, Apr 2005 - Feb 2008)
 
   [![Qt](https://img.shields.io/badge/-Qt-555?style=flat&logo=qt&logoColor=fff)](https://qt.io/)
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
