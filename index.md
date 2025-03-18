@@ -9,7 +9,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
 ## Experience
 
-- **Contractor** at **Huawei Finland** (remote, Nov 2023 - Feb 2025)
+- **Senior Software Engineer** at **Huawei Finland** (contract, remote, Nov 2023 - Feb 2025)
 
   [![C++](https://img.shields.io/badge/-C++-555?style=flat&logo=cplusplus)](https://isocpp.org/)
   [![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
@@ -18,7 +18,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Lead developer of experimental multi-threaded VList and VGrid components for [ArkUI](https://gitee.com/openharmony/arkui_ace_engine).
 
-- **Contractor** at **Canonical** (remote, Jul 2021 - Sep 2023)
+- **Senior Software Engineer** at **Canonical** (contract, remote, Jul 2021 - Aug 2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-555?style=flat&logo=ubuntu&logoColor=fff)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-555?style=flat&logo=flutter)](https://flutter.dev/)
