@@ -13,6 +13,15 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
 ## Experience
 
+- **Senior Software Engineer** at **Sentry** (contract, remote, Apr 2025 - Present)
+
+  [![C](https://img.shields.io/badge/-C-fff?style=flat&logo=cplusplus&logoColor=555)](https://www.iso.org/standard/74528.html)
+  [![C++](https://img.shields.io/badge/-C++-fff?style=flat&logo=cplusplus&logoColor=555)](https://isocpp.org/)
+  [![Python](https://img.shields.io/badge/-Python-fff?style=flat&logo=python&logoColor=555)](https://www.python.org/)
+  [![Sentry](https://img.shields.io/badge/-Sentry-fff?style=flat&logo=sentry&logoColor=555)](https://sentry.io/)
+
+  [Sentry Native SDK](https://github.com/getsentry/sentry-native) for C/C++.
+
 - **Senior Software Engineer** at **Huawei Finland** (contract, remote, Nov 2023 - Feb 2025)
 
   [![C++](https://img.shields.io/badge/-C++-fff?style=flat&logo=cplusplus&logoColor=555)](https://isocpp.org/)
