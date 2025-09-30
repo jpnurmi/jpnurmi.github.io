@@ -13,16 +13,16 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
 ## Experience
 
-- **Senior Software Engineer** at **Sentry** (contract, remote, Apr 2025 - Present)
+- **Contractor** at **Sentry** (Remote, Apr 2025 - Present)
 
+  [![Sentry](https://img.shields.io/badge/-Sentry-fff?style=flat&logo=sentry&logoColor=555)](https://sentry.io/)
   [![C](https://img.shields.io/badge/-C-fff?style=flat&logo=cplusplus&logoColor=555)](https://www.iso.org/standard/74528.html)
   [![C++](https://img.shields.io/badge/-C++-fff?style=flat&logo=cplusplus&logoColor=555)](https://isocpp.org/)
-  [![Python](https://img.shields.io/badge/-Python-fff?style=flat&logo=python&logoColor=555)](https://www.python.org/)
-  [![Sentry](https://img.shields.io/badge/-Sentry-fff?style=flat&logo=sentry&logoColor=555)](https://sentry.io/)
+  [![C#](https://img.shields.io/badge/-C%23-fff?style=flat&logo=.net&logoColor=555)]([https://www.python.org/](https://dotnetfoundation.org/))
 
-  [Sentry Native SDK](https://github.com/getsentry/sentry-native) for C/C++.
+  [Sentry Native SDK](https://github.com/getsentry/sentry-native) for C/C++, and [Sentry .NET SDK](https://github.com/getsentry/sentry-dotnet) for C#.
 
-- **Senior Software Engineer** at **Huawei Finland** (contract, remote, Nov 2023 - Feb 2025)
+- **Contractor** at **Huawei Finland** (Remote, Nov 2023 - Feb 2025)
 
   [![C++](https://img.shields.io/badge/-C++-fff?style=flat&logo=cplusplus&logoColor=555)](https://isocpp.org/)
   [![TypeScript](https://img.shields.io/badge/-TypeScript-fff?style=flat&logo=typescript&logoColor=555)](https://www.typescriptlang.org/)
@@ -31,7 +31,7 @@ A passionate and dedicated software engineer with 20 years of experience develop
 
   Lead developer of experimental multi-threaded virtual List and Grid components providing up to double FPS compared to the stock List and Grid components in [ArkUI](https://gitee.com/openharmony/arkui_ace_engine) and OpenHarmony.
 
-- **Senior Software Engineer** at **Canonical** (contract, remote, Jul 2021 - Aug 2023)
+- **Contractor** at **Canonical** (Remote, Jul 2021 - Aug 2023)
 
   [![Ubuntu](https://img.shields.io/badge/-Ubuntu-fff?style=flat&logo=ubuntu&logoColor=555)](https://ubuntu.com/)
   [![Flutter](https://img.shields.io/badge/-Flutter-fff?style=flat&logo=flutter&logoColor=555)](https://flutter.dev/)
